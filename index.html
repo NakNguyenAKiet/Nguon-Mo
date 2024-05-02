@@ -3,60 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>Caro Game</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
-        <h1>Personal Profile</h1>
-    </header>
-    <div class="profile">
-        <div class="profile-header">
-            <div class="inforbody">
-                <img src="./profile-pic.jpg" alt="Profile Picture" class="profile-picture">
-                <div class="profile-info">
-                    <h2>Nguyễn Anh Kiệt</h2>
-                    <p>Unity Developer</p>
-                    <button><a href="https://github.com/NakNguyenAKiet/Nguon-Mo-Lab2">Github</a></button>
-                </div>
-            </div>
-            <div class="inforbody">
-                <div class="profile-info">
-                    <h4>Điện thoại: 0835973152</h4>
-                    <h4>Ngày sinh: 28/03/2002</h4>
-                    <h4>Email: naknguyenanhkiet02@gmail.com</h4>
-                </div>
-            </div>
-        </div>
-        <div class="profiled">
-            <div>
-                <h3>Tổng quan</h3>
-            </div>
+        <nav>
             <ul>
-                <li>
-                    Làm việc với các dự án game 2D/3D, multiplayer, Hyper Casual
-                </li>
-                <li>
-                    Có kinh nghiệm triển khai API, socket, Cloud, Firebase
-                </li>
-                <li>
-                    Từng làm việc trong dự án game 3D Metaverse, phát triển các tính năng về Communication: chat, voice chat, friend
-                </li>
-                <li>
-                    Phát triển app multiplatform : Window, Android/IOS, Webgl
-                </li>
-                <li>
-                    Có kinh nghiệm tham gia và làm việc với dự án vừa, với quy trình làm việc rõ ràng   
-                </li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </div>
-        
-    </div>
+        </nav>
+    </header>
+     
+    <section id="about" class="section">
+        <h2>Caro Game</h2>
+    </section>       
     <div class="profile">
         <div class="profiled">
             <div>
-                <h3>Dự án Game Metaverse B2B</h3>
-                <p>Game Online | product</p>
+                <h3>Game cờ Caro</h3>
+                <p>Game Online | socket | client | server</p>
             </div>
             <div class="profile-gallery">
                 <img src="./Screenshot_2.png" alt="Profile Picture">
@@ -64,26 +31,59 @@
                 <img src="./Screenshot_3.png" alt="Profile Picture">
             </div>
             <p>
-                Sản phẩm thuộc Công ty cổ phần đầu tư và công nghệ BAP.
-                Đây là một nền tảng dành cho giải trí, kết nối mạng, hội họp và thiết kế, với các tính năng có thể tái sử dụng và công nghệ sẵn sàng cho tương lai.
+                Game Caro, còn được biết đến với tên gọi Gomoku hoặc Three in a Row, là một
+                trò chơi bàn cờ hai người chơi, thường được chơi trên một bảng ô vuông. Trò chơi
+                này yêu cầu người chơi đặt các quân cờ của mình trên bảng theo lượt, với mục
+                tiêu là tạo thành một dãy liên tiếp gồm n quân cờ theo hàng ngang, dọc hoặc
+                chéo trên bảng. Trò chơi Caro là một trò chơi giải trí tuyệt vời, kết hợp giữa sự
+                đơn giản và sâu sắc, thu hút người chơi mọi lứa tuổi.
             </p>
-            <ul>
-                <li>
-                    Demo: <a href="https://www.youtube.com/watch?v=rwxeJgP8Hbw">https://www.youtube.com/watch?v=rwxeJgP8Hbw</a>
-                </li>
-                <li>
-                    Vai trò trong dự án: 
-                    Triển khai hệ thống multiplayer
-                    Triển khai hệ thống chat, voice chat, friend
-                    Dựng UI, xử lí logic giao tiếp với back end thông qua API và socket
-                </li>
-                <li>
-                    Công nghệ sử dụng:
-                    3rd party: PUN2, photon chat, photon voice, Firebase
-                    DeVoid UIframeword, SRDebug, UniRx, UniTask, DOTween  
-                </li>
-            </ul>
+                - Bảng chơi của Caro thường có kích thước lớn và được chia thành lưới ô
+                vuông.Có hai loại quân cờ, thường là ’X’ và ’O’, tương ứng với hai người
+                chơi.
+            <p>
+            </p>
+            - Người chơi đặt quân cờ của mình lên bảng theo lượt. Mục tiêu của mỗi người
+                chơi là tạo thành một chuỗi liên tiếp gồm n quân cờ trên bảng (thường là
+                năm), theo hàng ngang, dọc hoặc chéo. Người chơi nào tạo thành chuỗi n
+                quân cờ đầu tiên sẽ chiến thắng trò chơi.
+            <p>
+                - Trò chơi Caro yêu cầu sự kỹ năng, chiến thuật và dự đoán của người chơi.
+                Các người chơi thường cố gắng tạo ra các chuỗi liên tiếp trên bảng của họ
+                trong khi ngăn chặn đối thủ làm điều tương tự.
+            </p>
+            <p>
+                - Trò chơi Caro có thể được chơi trên nhiều nền tảng khác nhau, bao gồm
+                bảng giấy, bảng điện tử và trò chơi trực tuyến. Có các phiên bản trò chơi
+                Caro được phát triển với đồ họa hấp dẫn và tính năng mạng, cho phép người
+                chơi kết nối và thi đấu với nhau từ xa.
+            </p>
+            <h4>Link Game: </h4>
+            <div class="profile-info">
+                <button><a href="https://github.com/NakNguyenAKiet/CaroGame">Github</a></button>
+            </div>
         </div>
     </div>
+    <section id="contact" class="section">
+        <h2>Giới thiệu</h2>
+    </section> 
+    <div class="profile">
+        <div class="profile-header">
+            <div class="inforbody">
+                <div class="profile-info">
+                    <h3>Thành viên:</h3>
+                    <h4>Nguyễn Anh Kiệt</h4>
+                    <h4>Võ Trần Tấn Lộc</h4>
+                    <h4>Lê Gia Hào</h4>
+                </div>
+            </div>
+            <div class="inforbody">
+
+            </div>
+        </div>
+    </div>  
+    <footer>
+        <p>&copy; 2022 My Portfolio</p>
+    </footer>
 </body>
 </html>
